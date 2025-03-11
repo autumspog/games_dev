@@ -1,0 +1,16 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/autumspog/source/repos/Youtube1/Content/Audio/background_music.mp3","C:/Users/autumspog/source/repos/Youtube1/Content/bin/DesktopGL/Content/Audio/background_music.xnb","SongProcessor","SongContent",848225,134,1.8580159
+"C:/Users/autumspog/source/repos/Youtube1/Content/Audio/player_engine_loop.wav","C:/Users/autumspog/source/repos/Youtube1/Content/bin/DesktopGL/Content/Audio/player_engine_loop.xnb","SoundEffectProcessor","SoundEffectContent",689248,689309,0.1429797
+"C:/Users/autumspog/source/repos/Youtube1/Content/badbutterfly.png","C:/Users/autumspog/source/repos/Youtube1/Content/bin/DesktopGL/Content/badbutterfly.xnb","TextureProcessor","Texture2DContent",27255,194557,0.1626733
+"C:/Users/autumspog/source/repos/Youtube1/Content/ball.png","C:/Users/autumspog/source/repos/Youtube1/Content/bin/DesktopGL/Content/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.1912299
+"C:/Users/autumspog/source/repos/Youtube1/Content/butterfly.png","C:/Users/autumspog/source/repos/Youtube1/Content/bin/DesktopGL/Content/butterfly.xnb","TextureProcessor","Texture2DContent",27231,194541,0.0090166
+"C:/Users/autumspog/source/repos/Youtube1/Content/Fonts/8bitfont.spritefont","C:/Users/autumspog/source/repos/Youtube1/Content/bin/DesktopGL/Content/Fonts/8bitfont.xnb","FontDescriptionProcessor","SpriteFontContent",2088,37919,0.2366219
+"C:/Users/autumspog/source/repos/Youtube1/Content/frame_0.png","C:/Users/autumspog/source/repos/Youtube1/Content/bin/DesktopGL/Content/frame_0.xnb","TextureProcessor","Texture2DContent",338,4181,0.1762742
+"C:/Users/autumspog/source/repos/Youtube1/Content/frame_1.png","C:/Users/autumspog/source/repos/Youtube1/Content/bin/DesktopGL/Content/frame_1.xnb","TextureProcessor","Texture2DContent",337,4181,0.0033779
+"C:/Users/autumspog/source/repos/Youtube1/Content/Frog.png","C:/Users/autumspog/source/repos/Youtube1/Content/bin/DesktopGL/Content/Frog.xnb","TextureProcessor","Texture2DContent",984,20149,0.1872015
+"C:/Users/autumspog/source/repos/Youtube1/Content/Heart.png","C:/Users/autumspog/source/repos/Youtube1/Content/bin/DesktopGL/Content/Heart.xnb","TextureProcessor","Texture2DContent",2174,10085,0.1835408
+"C:/Users/autumspog/source/repos/Youtube1/Content/Oakley.png","C:/Users/autumspog/source/repos/Youtube1/Content/bin/DesktopGL/Content/Oakley.xnb","TextureProcessor","Texture2DContent",834,10117,0.160017
+"C:/Users/autumspog/source/repos/Youtube1/Content/Platform_1.png","C:/Users/autumspog/source/repos/Youtube1/Content/bin/DesktopGL/Content/Platform_1.xnb","TextureProcessor","Texture2DContent",2201,75949,0.1525794
+"C:/Users/autumspog/source/repos/Youtube1/Content/Platform_2.png","C:/Users/autumspog/source/repos/Youtube1/Content/bin/DesktopGL/Content/Platform_2.xnb","TextureProcessor","Texture2DContent",2809,75949,0.0074128
+"C:/Users/autumspog/source/repos/Youtube1/Content/Platform_3.png","C:/Users/autumspog/source/repos/Youtube1/Content/bin/DesktopGL/Content/Platform_3.xnb","TextureProcessor","Texture2DContent",1036,75949,0.0033544
+"C:/Users/autumspog/source/repos/Youtube1/Content/Willow.png","C:/Users/autumspog/source/repos/Youtube1/Content/bin/DesktopGL/Content/Willow.xnb","TextureProcessor","Texture2DContent",882,10117,0.1979357

@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\autumspog\\source\\repos\\Youtube1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20852318-FAF8-41E2-8FCC-E21579D30FF3}|Youtube1.csproj|c:\\users\\autumspog\\source\\repos\\youtube1\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20852318-FAF8-41E2-8FCC-E21579D30FF3}|Youtube1.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20852318-FAF8-41E2-8FCC-E21579D30FF3}|Youtube1.csproj|c:\\users\\autumspog\\source\\repos\\youtube1\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20852318-FAF8-41E2-8FCC-E21579D30FF3}|Youtube1.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20852318-FAF8-41E2-8FCC-E21579D30FF3}|Youtube1.csproj|c:\\users\\autumspog\\source\\repos\\youtube1\\animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20852318-FAF8-41E2-8FCC-E21579D30FF3}|Youtube1.csproj|solutionrelative:animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20852318-FAF8-41E2-8FCC-E21579D30FF3}|Youtube1.csproj|c:\\users\\autumspog\\source\\repos\\youtube1\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20852318-FAF8-41E2-8FCC-E21579D30FF3}|Youtube1.csproj|solutionrelative:sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20852318-FAF8-41E2-8FCC-E21579D30FF3}|Youtube1.csproj|c:\\users\\autumspog\\source\\repos\\youtube1\\movingsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20852318-FAF8-41E2-8FCC-E21579D30FF3}|Youtube1.csproj|solutionrelative:movingsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20852318-FAF8-41E2-8FCC-E21579D30FF3}|Youtube1.csproj|c:\\users\\autumspog\\source\\repos\\youtube1\\scalesprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20852318-FAF8-41E2-8FCC-E21579D30FF3}|Youtube1.csproj|solutionrelative:scalesprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20852318-FAF8-41E2-8FCC-E21579D30FF3}|Youtube1.csproj|c:\\users\\autumspog\\source\\repos\\youtube1\\coloredsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20852318-FAF8-41E2-8FCC-E21579D30FF3}|Youtube1.csproj|solutionrelative:coloredsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnimationManager.cs",
+              "DocumentMoniker": "C:\\Users\\autumspog\\source\\repos\\Youtube1\\AnimationManager.cs",
+              "RelativeDocumentMoniker": "AnimationManager.cs",
+              "ToolTip": "C:\\Users\\autumspog\\source\\repos\\Youtube1\\AnimationManager.cs",
+              "RelativeToolTip": "AnimationManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:30:45.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScaleSprite.cs",
+              "DocumentMoniker": "C:\\Users\\autumspog\\source\\repos\\Youtube1\\ScaleSprite.cs",
+              "RelativeDocumentMoniker": "ScaleSprite.cs",
+              "ToolTip": "C:\\Users\\autumspog\\source\\repos\\Youtube1\\ScaleSprite.cs",
+              "RelativeToolTip": "ScaleSprite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T11:48:20.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovingSprite.cs",
+              "DocumentMoniker": "C:\\Users\\autumspog\\source\\repos\\Youtube1\\MovingSprite.cs",
+              "RelativeDocumentMoniker": "MovingSprite.cs",
+              "ToolTip": "C:\\Users\\autumspog\\source\\repos\\Youtube1\\MovingSprite.cs",
+              "RelativeToolTip": "MovingSprite.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAWwBMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:04:29.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ColoredSprite.cs",
+              "DocumentMoniker": "C:\\Users\\autumspog\\source\\repos\\Youtube1\\ColoredSprite.cs",
+              "RelativeDocumentMoniker": "ColoredSprite.cs",
+              "ToolTip": "C:\\Users\\autumspog\\source\\repos\\Youtube1\\ColoredSprite.cs",
+              "RelativeToolTip": "ColoredSprite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:00:46.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sprite.cs",
+              "DocumentMoniker": "C:\\Users\\autumspog\\source\\repos\\Youtube1\\Sprite.cs",
+              "RelativeDocumentMoniker": "Sprite.cs",
+              "ToolTip": "C:\\Users\\autumspog\\source\\repos\\Youtube1\\Sprite.cs",
+              "RelativeToolTip": "Sprite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T11:48:42.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\autumspog\\source\\repos\\Youtube1\\Game1.cs",
+              "RelativeDocumentMoniker": "Game1.cs",
+              "ToolTip": "C:\\Users\\autumspog\\source\\repos\\Youtube1\\Game1.cs",
+              "RelativeToolTip": "Game1.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAgwJgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T11:46:30.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\autumspog\\source\\repos\\Youtube1\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\autumspog\\source\\repos\\Youtube1\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T16:12:17.927Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
