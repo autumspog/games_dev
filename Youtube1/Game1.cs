@@ -21,6 +21,9 @@ public class Game1 : Game
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
+    //Advance Scene Construction
+    private SceneManager sceneManager;
+
     //Scene Construction
     /*
     private Scenes activeScene;
@@ -52,8 +55,10 @@ public class Game1 : Game
     AnimationManager animationManager;
     AnimationManager willowManager;
     AnimationManager oakleyManager;
+    AnimationManager josieManager;
     Texture2D willowsheet;
     Texture2D oakleysheet;
+    Texture2D josiesheet;
 
     //Player player;
     //Texture2D texture;
@@ -81,6 +86,9 @@ public class Game1 : Game
         IsMouseVisible = true;
         //Scenen Constrction v1
         //activeScene = Scenes.START;
+
+        //Scene Manager 
+        sceneManager = new();
     }
 
     protected override void Initialize()
@@ -104,6 +112,7 @@ public class Game1 : Game
         spritesheet = Content.Load<Texture2D>("Frog");
         willowsheet = Content.Load<Texture2D>("willow");
         oakleysheet = Content.Load<Texture2D>("Oakley");
+        josiesheet = Content.Load<Texture2D>("Josie");
         //font = Content.Load<SpriteFont>("Fonts/8bitfont");
         /* basic Animation
         runningTextures = new Texture2D[2];
@@ -174,6 +183,7 @@ public class Game1 : Game
         //sprites.Remove(sprite);
         animationManager = new(11, 4, new Vector2(19, 22));
         willowManager = new (5, 2, new Vector2(19, 22));
+        josieManager = new (5, 2, new Vector2(19, 22));
         oakleyManager = new (5, 2, new Vector2(19, 22));
 
         //Song 
@@ -184,6 +194,9 @@ public class Game1 : Game
 
         effectInstance.IsLooped = true;
         */
+
+        //Scene Mananger
+        sceneManager.AddScene(new GameScene(Content, sceneManager) );
     }
 
 
@@ -262,6 +275,7 @@ public class Game1 : Game
         animationManager.Update();
         willowManager.Update();
         oakleyManager.Update();
+        josieManager.Update();
 
         //Font setup
         /*
@@ -323,6 +337,10 @@ public class Game1 : Game
                 break;
         }
         */
+
+        //Scene Manager
+        sceneManager.GetCurrentScene().Update(gameTime);
+
         base.Update(gameTime);
 
     }
@@ -375,12 +393,15 @@ public class Game1 : Game
             Color.White);
         */
         //_spriteBatch.Draw(spritesheet, new Rectangle(100, 100, 100, 200), animationManager.GetFrame(), Color.White);
-        
-        
+        _spriteBatch.Draw(josiesheet, new Rectangle(100, 100, 100, 200), josieManager.GetFrame(), Color.White);
+        _spriteBatch.Draw(willowsheet, new Rectangle(300, 100, 100, 200), willowManager.GetFrame(), Color.White);
+        _spriteBatch.Draw(oakleysheet, new Rectangle(500, 100, 100, 200), oakleyManager.GetFrame(), Color.White);
+
+
         //_spriteBatch.DrawString(font, "Score: " + score, Vector2.Zero, Color.White);
 
 
-        //Scene Management
+        //Scene switch
         /*
         switch (activeScene)
         {
@@ -400,7 +421,10 @@ public class Game1 : Game
                 break;
         }
         */
-        
+
+        //Scene Manager
+        sceneManager.GetCurrentScene().Draw(_spriteBatch);
+
         _spriteBatch.End();
         base.Draw(gameTime);
     }
