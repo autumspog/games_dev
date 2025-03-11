@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
@@ -8,10 +9,23 @@ using System.Linq.Expressions;
 
 namespace Youtube1;
 
+//Scene Constructions v1
+/*
+enum Scenes {
+    START,
+    GAME
+}
+*/
 public class Game1 : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
+
+    //Scene Construction
+    /*
+    private Scenes activeScene;
+    */
+
 
     //private ScaleSprite sprite;
     //private ColoredSprite sprite;
@@ -43,18 +57,30 @@ public class Game1 : Game
 
     //Player player;
     //Texture2D texture;
-    private SpriteFont font;
-    private int score = 0;
 
     //Basic Scoring
-    bool is_space_pressed = false;
+    /*bool is_space_pressed = false;
+    private SpriteFont font;
+    private int score = 0;
+    */
 
+    //Audio
+    /*
     Song song;
+    SoundEffect effect;
+    SoundEffectInstance effectInstance;
+
+    KeyboardState PrevKBState;
+    */
+
+
     public Game1()
     {
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
+        //Scenen Constrction v1
+        //activeScene = Scenes.START;
     }
 
     protected override void Initialize()
@@ -78,7 +104,7 @@ public class Game1 : Game
         spritesheet = Content.Load<Texture2D>("Frog");
         willowsheet = Content.Load<Texture2D>("willow");
         oakleysheet = Content.Load<Texture2D>("Oakley");
-        font = Content.Load<SpriteFont>("Fonts/8bitfont");
+        //font = Content.Load<SpriteFont>("Fonts/8bitfont");
         /* basic Animation
         runningTextures = new Texture2D[2];
 
@@ -92,14 +118,18 @@ public class Game1 : Game
         numFrames = 3;
         counter = 0;
         */
+
+        /* TEsting
         //sprite = new ScaleSprite(texture, Vector2.Zero);
         //sprite = new ColoredSprite(texture, Vector2.Zero, Color.Red);
         //sprite = new MovingSprite(texture, Vector2.Zero, 1f);
         //sprites = new List<MovingSprite>();
         //toast = new Player(texture, Vector2.Zero);
+        */
         sprites = new();
 
-        /*for (int i = 0; i < 10; i++)
+        /* loop for sprites
+         * for (int i = 0; i < 10; i++)
         {
             sprites.Add(new MovingSprite(texture, new Vector2(0, 10 * i), i));
         }
@@ -136,7 +166,7 @@ public class Game1 : Game
         //cakes.Add(new Player(texture, new Vector2(0, 0)));
         
 
-        /*
+        /* Player update
         player = new Player(texture, new Vector2(100, 100), sprites);
         sprites.Add(player);
         */
@@ -147,11 +177,15 @@ public class Game1 : Game
         oakleyManager = new (5, 2, new Vector2(19, 22));
 
         //Song 
-
+        /*
         song = Content.Load<Song>("Audio/background_music");
+        effect = Content.Load<SoundEffect>("Audio/player_engine_loop");
+        effectInstance = effect.CreateInstance();
 
-        MediaPlayer.Play(song);
+        effectInstance.IsLooped = true;
+        */
     }
+
 
     protected override void Update(GameTime gameTime)
     {
@@ -230,6 +264,7 @@ public class Game1 : Game
         oakleyManager.Update();
 
         //Font setup
+        /*
         if (Keyboard.GetState().IsKeyDown(Keys.Space) && !is_space_pressed)
         {
             score++;
@@ -240,8 +275,56 @@ public class Game1 : Game
         {
             is_space_pressed = false;
         }
-        
+        */
+        //Audio Update
+        /*
+        KeyboardState currentKBState = Keyboard.GetState();
+
+        if (currentKBState.IsKeyDown(Keys.Space) && !PrevKBState.IsKeyDown(Keys.Space))
+        {
+            MediaPlayer.Play(song);
+        }
+
+        if (currentKBState.IsKeyDown(Keys.P) && !PrevKBState.IsKeyDown(Keys.P))
+        {
+            MediaPlayer.Pause();
+        }
+        if (currentKBState.IsKeyDown(Keys.O) && !PrevKBState.IsKeyDown(Keys.O))
+        {
+            MediaPlayer.Resume();
+        }
+
+        if (currentKBState.IsKeyDown(Keys.M) && !PrevKBState.IsKeyDown(Keys.M))
+        {
+            effectInstance.Play();
+        }
+
+        PrevKBState = currentKBState;
+        */
+
+
+        //Scee Control
+        /*switch(activeScene)
+        {
+            case Scenes.START:
+
+                //Start sceen information
+                if (Keyboard.GetState().IsKeyDown(Keys.Space))
+                {
+                    activeScene = Scenes.GAME;
+                }      
+                break;
+
+            case Scenes.GAME:
+
+                //Game Sceen
+
+
+                break;
+        }
+        */
         base.Update(gameTime);
+
     }
 
 
@@ -251,13 +334,14 @@ public class Game1 : Game
 
         // TODO: Add your drawing code here
         _spriteBatch.Begin(samplerState: SamplerState.PointClamp);
-        //Three butterfly to screen manually
+        /*//Three butterfly to screen manually
         //_spriteBatch.Draw(texture, new Rectangle(100,100,100,100), Color.White);
         //_spriteBatch.Draw(texture, new Rectangle(100, 200, 100, 100), Color.Gray);
         //_spriteBatch.Draw(texture, new Rectangle(100, 300, 100, 100), Color.MediumVioletRed);
         //Vid2 - sprite load
         //_spriteBatch.Draw(sprite.texture, sprite.Rect, Color.White);
         //_spriteBatch.Draw(sprite.texture, sprite.Rect, sprite.color);
+        */
         /*v2
         foreach (MovingSprite sprite in sprites)
             {
@@ -271,11 +355,12 @@ public class Game1 : Game
         }*/
 
 
-        foreach (var sprite in sprites)
+        /*foreach (var sprite in sprites)
         {
             //_spriteBatch.Draw(cake.texture, cake.Rect, Color.White);
             sprite.Draw(_spriteBatch);
         }
+        */
         //player.Draw(_spriteBatch);
         //toast.Draw(_spriteBatch);
 
@@ -289,10 +374,33 @@ public class Game1 : Game
             new Rectangle(activeFrame * 32, 0, 32, 32),
             Color.White);
         */
-        _spriteBatch.Draw(spritesheet, new Rectangle(100, 100, 100, 200), animationManager.GetFrame(), Color.White);
-        _spriteBatch.Draw(willowsheet, new Rectangle(300, 100, 100, 200), willowManager.GetFrame(), Color.White);
-        _spriteBatch.Draw(oakleysheet, new Rectangle(500, 100, 100, 200), oakleyManager.GetFrame(), Color.White);
-        _spriteBatch.DrawString(font, "Score: " + score, Vector2.Zero, Color.White);
+        //_spriteBatch.Draw(spritesheet, new Rectangle(100, 100, 100, 200), animationManager.GetFrame(), Color.White);
+        
+        
+        //_spriteBatch.DrawString(font, "Score: " + score, Vector2.Zero, Color.White);
+
+
+        //Scene Management
+        /*
+        switch (activeScene)
+        {
+            case Scenes.START:
+
+                //Start sceen information
+                _spriteBatch.Draw(willowsheet, new Rectangle(300, 100, 100, 200), willowManager.GetFrame(), Color.White);
+
+                break;
+
+            case Scenes.GAME:
+
+                //Game Sceen
+
+                _spriteBatch.Draw(oakleysheet, new Rectangle(300, 100, 100, 200), oakleyManager.GetFrame(), Color.White);
+
+                break;
+        }
+        */
+        
         _spriteBatch.End();
         base.Draw(gameTime);
     }
