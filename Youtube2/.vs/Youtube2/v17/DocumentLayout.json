@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\autum\\Documents\\GitHub\\games_dev\\Youtube2\\",
+  "WorkspaceRootPath": "C:\\Users\\autumspog\\Documents\\GitHub\\games_dev\\Youtube2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|c:\\users\\autum\\documents\\github\\games_dev\\youtube2\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|c:\\users\\autumspog\\documents\\github\\games_dev\\youtube2\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|c:\\users\\autum\\documents\\github\\games_dev\\youtube2\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|c:\\users\\autumspog\\documents\\github\\games_dev\\youtube2\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|solutionrelative:sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|c:\\users\\autum\\documents\\github\\games_dev\\youtube2\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|c:\\users\\autumspog\\documents\\github\\games_dev\\youtube2\\animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|solutionrelative:animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|c:\\users\\autumspog\\documents\\github\\games_dev\\youtube2\\player_old.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|solutionrelative:player_old.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|c:\\users\\autumspog\\documents\\github\\games_dev\\youtube2\\ysortcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|solutionrelative:ysortcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|c:\\users\\autumspog\\documents\\github\\games_dev\\youtube2\\data\\level1_collision.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D8206AD5-06ED-4297-A121-E2C80769D7DC}|Youtube2.csproj|solutionrelative:data\\level1_collision.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +34,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\autum\\Documents\\GitHub\\games_dev\\Youtube2\\Player.cs",
-              "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "C:\\Users\\autum\\Documents\\GitHub\\games_dev\\Youtube2\\Player.cs",
-              "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Title": "AnimationManager.cs",
+              "DocumentMoniker": "C:\\Users\\autumspog\\Documents\\GitHub\\games_dev\\Youtube2\\AnimationManager.cs",
+              "RelativeDocumentMoniker": "AnimationManager.cs",
+              "ToolTip": "C:\\Users\\autumspog\\Documents\\GitHub\\games_dev\\Youtube2\\AnimationManager.cs",
+              "RelativeToolTip": "AnimationManager.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwB8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:12:19.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "level1_collision.csv",
+              "DocumentMoniker": "C:\\Users\\autumspog\\Documents\\GitHub\\games_dev\\Youtube2\\Data\\level1_collision.csv",
+              "RelativeDocumentMoniker": "Data\\level1_collision.csv",
+              "ToolTip": "C:\\Users\\autumspog\\Documents\\GitHub\\games_dev\\Youtube2\\Data\\level1_collision.csv",
+              "RelativeToolTip": "Data\\level1_collision.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-03-13T21:48:25.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "YSortCamera.cs",
+              "DocumentMoniker": "C:\\Users\\autumspog\\Documents\\GitHub\\games_dev\\Youtube2\\YSortCamera.cs",
+              "RelativeDocumentMoniker": "YSortCamera.cs",
+              "ToolTip": "C:\\Users\\autumspog\\Documents\\GitHub\\games_dev\\Youtube2\\YSortCamera.cs",
+              "RelativeToolTip": "YSortCamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:32:44.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player_old.cs",
+              "DocumentMoniker": "C:\\Users\\autumspog\\Documents\\GitHub\\games_dev\\Youtube2\\Player_old.cs",
+              "RelativeDocumentMoniker": "Player_old.cs",
+              "ToolTip": "C:\\Users\\autumspog\\Documents\\GitHub\\games_dev\\Youtube2\\Player_old.cs",
+              "RelativeToolTip": "Player_old.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T23:00:36.352Z",
               "EditorCaption": ""
@@ -41,11 +92,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Sprite.cs",
-              "DocumentMoniker": "C:\\Users\\autum\\Documents\\GitHub\\games_dev\\Youtube2\\Sprite.cs",
+              "DocumentMoniker": "C:\\Users\\autumspog\\Documents\\GitHub\\games_dev\\Youtube2\\Sprite.cs",
               "RelativeDocumentMoniker": "Sprite.cs",
-              "ToolTip": "C:\\Users\\autum\\Documents\\GitHub\\games_dev\\Youtube2\\Sprite.cs",
+              "ToolTip": "C:\\Users\\autumspog\\Documents\\GitHub\\games_dev\\Youtube2\\Sprite.cs",
               "RelativeToolTip": "Sprite.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T22:50:03.04Z",
               "EditorCaption": ""
@@ -54,11 +105,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\autum\\Documents\\GitHub\\games_dev\\Youtube2\\Game1.cs",
+              "DocumentMoniker": "C:\\Users\\autumspog\\Documents\\GitHub\\games_dev\\Youtube2\\Game1.cs",
               "RelativeDocumentMoniker": "Game1.cs",
-              "ToolTip": "C:\\Users\\autum\\Documents\\GitHub\\games_dev\\Youtube2\\Game1.cs",
+              "ToolTip": "C:\\Users\\autumspog\\Documents\\GitHub\\games_dev\\Youtube2\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAIwCoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwGgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T22:44:45.773Z",
               "EditorCaption": ""
